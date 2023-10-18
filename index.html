@@ -4,22 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
     <title>Time tracking dashboard</title>
 </head>
 <body>
     <div id="box-report">
         <div id="report">
-            <img id='img'src="./images/star.jpg" alt="">
+            <img id='img'src="./images/star.jpg" alt="perfil image">
             <div id="text-report">
             <p id="phrase">Report for</p>
-            <h1 id="name">Matheus Henrique</h1>
+            <p id="name">Matheus Henrique</p>
+            <button id="btn-add">New Markup</button>
             </div>
         </div>
         <div id="options">
             <span class="span">Daily</span>
-            <span class="span weekly">Weekly</span>
+            <span class="span marked">Weekly</span>
             <span class="span">Monthly</span>
          </div>    
     </div>
+    <div class="box-tasks">
+        <img class ='icons' src="./images/icon-work.svg" alt="icon-work">
+        <div class="box-content">
+            <div class="informations-task1">
+                <h2 class="name-task">Work</h2>
+                <h3 class="time-task">32hrs</h3>
+            </div>
+            <div class="informations-task2">
+                <p class="phrase-task">Last Week - 36hrs</p>
+            </div>
+        </div>
+    </div>
+    <div class="box-tasks play">
+        <img class ='icons play' src="./images/icon-play.svg" alt="icon-work">
+        <div class="box-content">
+            <div class="informations-task1">
+                <h2 class="name-task">Play</h2>
+                <h3 class="time-task">10hrs</h3>
+            </div>
+            <div class="informations-task2">
+                <p class="phrase-task">Last Week - 8hrs</p>
+            </div>
+        </div>
+    </div>
+    <div class="box-tasks study">
+        <img class ='icons study' src="./images/icon-study.svg" alt="icon-work">
+        <div class="box-content">
+            <div class="informations-task1">
+                <h2 class="name-task">Study</h2>
+                <h3 class="time-task">4hrs</h3>
+            </div>
+            <div class="informations-task2">
+                <p class="phrase-task">Last Week - 7hrs</p>
+            </div>
+        </div>
+    </div>
+    <div class="box-tasks exercise">
+        <img class ='icons exercise' src="./images/icon-exercise.svg" alt="icon-work">
+        <div class="box-content">
+            <div class="informations-task1">
+                <h2 class="name-task">Exercise</h2>
+                <h3 class="time-task">4hrs</h3>
+            </div>
+            <div class="informations-task2">
+                <p class="phrase-task">Last Week - 5hrs</p>
+            </div>
+        </div>
+    </div>
+    <div class="box-tasks social">
+        <img class ='icons social' src="./images/icon-social.svg" alt="icon-work">
+        <div class="box-content">
+            <div class="informations-task1">
+                <h2 class="name-task">Social</h2>
+                <h3 class="time-task">5hrs</h3>
+            </div>
+            <div class="informations-task2">
+                <p class="phrase-task">Last Week - 10hrs</p>
+            </div>
+        </div>
+    </div>
+    <div class="box-tasks self-care">
+        <img class ='icons self-care' src="./images/icon-self-care.svg" alt="icon-work">
+        <div class="box-content">
+            <div class="informations-task1">
+                <h2 class="name-task">Self Care</h2>
+                <h3 class="time-task">2hrs</h3>
+            </div>
+            <div class="informations-task2">
+                <p class="phrase-task">Last Week - 2hrs</p>
+            </div>
+        </div>
+    </div>
+    <div id="new-task">
+        <img id="icon-close" src="./images/close.svg" alt="icon-close">
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
